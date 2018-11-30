@@ -1,0 +1,119 @@
+#f1
+{
+    font-family:Calibri;
+    position:fixed;
+    width:100%;
+    font-weight:bold;
+    text-align:center;
+    color:rgba(245,245,245,0.8);
+    background-color: rgba(0,0,0,0.5);
+  }
+h1
+{
+   font-size:62px;
+  }
+
+body{
+  background: url("ezgif.com-gif-maker.gif");
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+
+}
+
+*{
+  padding:0;
+  margin:0;
+  border:0;
+}
+  
+
+ #a1
+  {
+    color:rgba(225,225,225,0.8);
+    padding:22px;
+    width:45%;
+    float:left;
+  }
+
+/*  #a1 input
+  {
+
+    background:rgba(200,200,200,0.5);
+   
+
+  }
+  #a1 legend
+  {
+    font-family:monotype corsiva,helvetica;
+  font-color:white;
+  font-size:62px;
+  }
+
+  .form-control
+  {
+    display:block;
+    margin: 50 px;
+    padding: 20 px;
+    border: solid black 2 px;
+  }
+*/
+
+
+legend {
+  margin:50px;
+  font-family: Calibri;
+  font-size:40px;
+  padding-left:40 px;
+  color:rgba(20,20,20,0.8);
+
+}
+button
+{
+    background-color:rgb(17,17,17); /*#4CAF50;  Green */
+    border: solid white 2px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+#a2 legend {
+  text-align: right;
+}
+.form-control
+
+{
+  width:45%;
+  padding:10px;
+  font-family: Helvetica;
+  border-radius: 3px;
+  display: block;
+  margin:15px;
+}
+#a2 .form-control {
+  display: table-cell;
+  margin:7.5px;
+  }
+  #a2 legend {
+  display: table-cell;
+  text-align: right;
+  }
+
+#a2 
+
+
+{
+  width:45%;
+  color:rgba(225,225,225,0.8);
+  float:right;
+  text-align: right;
+  padding :22px;
+}
+button:hover{
+  background-color: rgba(255,255,255,1);
+  color: rgba(17,17,17,0.7);
+  cursor: pointer;
+  border: solid rgba(255,255,255,1) 2px;
+}

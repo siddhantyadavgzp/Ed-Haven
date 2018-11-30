@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<title> Ed Haven</title>
+		
+		<link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<br><br>
+<img src="flogo.png" style="position:absolute; top:50%; left:50%; margin-top:-100px; margin-left:-100px;" height="200px" width="200px">
+<div id="a2">
+            <form action="r" method="post" accept-charset="utf-8" class="form" role="form"> 
+            		
+            		
+            		  <legend >Sign In</legend><br><br>
+                   			
+
+			<table>
+				<tr>                    
+                            <input type="text" name="Name" value="" class="form-control input-lg" placeholder="Email or Username"/>                          
+               </tr>    
+               <tr>     <input type="password" name="email" value="" class="form-control input-lg" placeholder="Enter Password"  />
+               </tr><br>
+                
+		
+			<tr>
+			<button type="button"	class="form-control">Sign In</button>
+			</tr>
+	</table>
+
+
+
+
+
+
+
+
+	
+
+</form>
+</div>
+<div id="a1">
+            <form action="r" method="post" accept-charset="utf-8" class="form" role="form"> 
+            		  <legend>Sign Up</legend><br><br>
+                   			
+
+			<table>
+				<tr>                    
+                            <input type="text" name="Name" value="" class="form-control input-lg" placeholder="Username"  />                     
+                                           
+               </tr> 
+				<tr>                    
+                            <input type="text" name="Name" value="" class="form-control input-lg" placeholder="Full Name"  />                     
+                                           
+               </tr>    
+               <tr>     <input type="text" name="email" value="" class="form-control input-lg" placeholder="Your Email"  />
+               </tr>
+                
+				<tr>
+					<select name="month" class = "form-control input-lg">
+	<option value="01">IIT ROORKEE</option>
+	<option value="02">IIT MADRAS</option>
+	<option value="03">IIT DELHI</option>
+	<option value="04">IIT GUHATI</option>
+	<option value="05">IIT BOMBAY</option>
+	<option value="06">IIT KANPUR</option>
+	<option value="07">IIT KHARAGPUR</option>
+					</select> 
+		    </tr>
+			<tr>    
+                    <input type="password" name="password" value="" class="form-control input-lg" placeholder="Password"  />
+		    </tr>
+    		<tr> 
+    		               <input type="password" name="confirm_password" value="" class="form-control input-lg" placeholder="Confirm Password"  />   
+			</tr>
+			<tr>
+			<button type="button"	class="form-control">Sign up</button>
+			</tr>
+	</table>
+
+</form>
+</div>
+</body>
+</html>
